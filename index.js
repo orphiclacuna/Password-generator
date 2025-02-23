@@ -51,7 +51,6 @@ function generatePassword(event) {
                 includeChars.push(symbols);
             }
             includeChars = includeChars.flat();                                  //flatten array
-            console.log(includeChars);
         }
 
         let pwd1 = '';
