@@ -1,7 +1,7 @@
 # Password Generator
 
 ## Description
-This project is a password generator that creates strong, random passwords for users. It is designed for anyone who needs to generate secure passwords for their accounts and has a minimalistic, user-friendly interface.
+A password generator that creates strong, random passwords for users. It has a minimalistic, user-friendly interface.
 
 ## Installation
 Steps to install the Password Generator project:
