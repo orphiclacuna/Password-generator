@@ -10,7 +10,6 @@ function generatePassword(event) {
     // document.getElementById('second-password').classList.add('password-display-hidden');
 
     let hiddenElements = document.getElementsByClassName("password-display");
-        console.log(hiddenElements);
         Array.from(hiddenElements).forEach(element => {
             element.classList.replace("password-display", "password-display-hidden");
         });
@@ -70,7 +69,6 @@ function generatePassword(event) {
         loadingGif.style.display = 'none';
 
         let hiddenElements = document.getElementsByClassName("password-display-hidden");
-        console.log(hiddenElements);
         Array.from(hiddenElements).forEach(element => {
             element.classList.replace("password-display-hidden", "password-display");
         });
