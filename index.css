@@ -1,0 +1,87 @@
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    color:azure;
+    font-family: "Lexend", sans-serif, serif;
+    text-align: center;
+    display: block;
+    font-size: large;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: medium;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: rgb(57, 255, 206);
+}
+
+#tagline {
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+#highlight {
+    color: rgb(57, 255, 206);
+    font-weight: bolder;
+}
+
+.setting {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin: 10px auto 10px auto;
+}
+
+#length-label {
+    margin-right: 10px;
+}
+
+#length {
+    width: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(57, 255, 206);
+    color: black;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: large;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: rgb(51, 231, 186);
+    color: black;
+}
+
+.password-display {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(31, 69, 100);
+    color: rgb(51, 231, 186);
+    cursor: pointer;
+}
+
+.password-display:hover {
+    background-color: rgb(51, 231, 186);
+    color: black;
+}
