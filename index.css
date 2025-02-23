@@ -1,7 +1,9 @@
 body {
     background-image: url("assets/background.jpg");
     background-size: cover;
-    color:azure;
+    background-position: center;
+    color: azure;
+    background-attachment: fixed;
     font-family: "Lexend", sans-serif, serif;
     text-align: center;
     display: block;
